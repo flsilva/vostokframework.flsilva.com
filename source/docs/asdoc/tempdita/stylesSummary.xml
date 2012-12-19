@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allClasses>
+   <apiPackage id="org.vostokframework.application.cache.errors">
+      <apiName>org.vostokframework.application.cache.errors</apiName>
+      <apiClassifier id="org.vostokframework.application.cache.errors:AssetDataAlreadyCachedError">
+         <apiName>AssetDataAlreadyCachedError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.cache.errors:CachedAssetDataNotFoundError">
+         <apiName>CachedAssetDataNotFoundError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.cache">
+      <apiName>org.vostokframework.application.cache</apiName>
+      <apiClassifier id="org.vostokframework.application.cache:CachedAssetData">
+         <apiName>CachedAssetData</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.cache:CachedAssetDataRepository">
+         <apiName>CachedAssetDataRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.events">
+      <apiName>org.vostokframework.application.events</apiName>
+      <apiClassifier id="org.vostokframework.application.events:GlobalLoadingEvent">
+         <apiName>GlobalLoadingEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.events:AssetLoadingErrorEvent">
+         <apiName>AssetLoadingErrorEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:ErrorEvent</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.events:QueueLoadingEvent">
+         <apiName>QueueLoadingEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.events:AssetLoadingEvent">
+         <apiName>AssetLoadingEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.monitoring.monitors.dispatchers">
+      <apiName>org.vostokframework.application.monitoring.monitors.dispatchers</apiName>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors.dispatchers:GlobalLoadingMonitorDispatcher">
+         <apiName>GlobalLoadingMonitorDispatcher</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.application.monitoring.monitors:LoadingMonitorDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors.dispatchers:AssetLoadingMonitorDispatcher">
+         <apiName>AssetLoadingMonitorDispatcher</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.application.monitoring.monitors:LoadingMonitorDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors.dispatchers:QueueLoadingMonitorDispatcher">
+         <apiName>QueueLoadingMonitorDispatcher</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.application.monitoring.monitors:LoadingMonitorDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.monitoring.monitors">
+      <apiName>org.vostokframework.application.monitoring.monitors</apiName>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors:LoadingMonitorWrapper">
+         <apiName>LoadingMonitorWrapper</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.application.monitoring:ILoadingMonitor</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors:CompositeLoadingMonitor">
+         <apiName>CompositeLoadingMonitor</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.application.monitoring.monitors:LoadingMonitor</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors:EventListener">
+         <apiName>EventListener</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors:LoadingMonitorDispatcher">
+         <apiName>LoadingMonitorDispatcher</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:EventDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring.monitors:LoadingMonitor">
+         <apiName>LoadingMonitor</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.application.monitoring:ILoadingMonitor</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.monitoring">
+      <apiName>org.vostokframework.application.monitoring</apiName>
+      <apiClassifier id="org.vostokframework.application.monitoring:ILoadingMonitor">
+         <apiName>ILoadingMonitor</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring:LoadingMonitorRepository">
+         <apiName>LoadingMonitorRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.monitoring:LoadingMonitoring">
+         <apiName>LoadingMonitoring</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application.services">
+      <apiName>org.vostokframework.application.services</apiName>
+      <apiClassifier id="org.vostokframework.application.services:AssetService">
+         <apiName>AssetService</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.services:LoadingService">
+         <apiName>LoadingService</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.services:XMLConfigurationService">
+         <apiName>XMLConfigurationService</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.services:ConfigurationService">
+         <apiName>ConfigurationService</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application.services:AssetPackageService">
+         <apiName>AssetPackageService</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.application">
+      <apiName>org.vostokframework.application</apiName>
+      <apiClassifier id="org.vostokframework.application:LoadingSettingsRepository">
+         <apiName>LoadingSettingsRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application:LoadingContext">
+         <apiName>LoadingContext</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.application:AssetsContext">
+         <apiName>AssetsContext</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration.parsers.errors">
+      <apiName>org.vostokframework.configuration.parsers.errors</apiName>
+      <apiClassifier id="org.vostokframework.configuration.parsers.errors:ConfigurationParserError">
+         <apiName>ConfigurationParserError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration.parsers.map">
+      <apiName>org.vostokframework.configuration.parsers.map</apiName>
+      <apiClassifier id="org.vostokframework.configuration.parsers.map:LoadingCacheSettingsMapParser">
+         <apiName>LoadingCacheSettingsMapParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration.parsers.map:LoadingSettingsMapParser">
+         <apiName>LoadingSettingsMapParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration.parsers">
+      <apiName>org.vostokframework.configuration.parsers</apiName>
+      <apiClassifier id="org.vostokframework.configuration.parsers:IConfigurationParser">
+         <apiName>IConfigurationParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration.parsers.xml.errors">
+      <apiName>org.vostokframework.configuration.parsers.xml.errors</apiName>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml.errors:XMLConfigurationParserError">
+         <apiName>XMLConfigurationParserError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration.parsers.xml">
+      <apiName>org.vostokframework.configuration.parsers.xml</apiName>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml:AssetPackageXMLNodeParser">
+         <apiName>AssetPackageXMLNodeParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml:AssetXMLNodeParser">
+         <apiName>AssetXMLNodeParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml:XMLConfigurationElementNames">
+         <apiName>XMLConfigurationElementNames</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.configuration:ConfigurationElementNames</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml:XMLConfigurationParser">
+         <apiName>XMLConfigurationParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.configuration.parsers:IConfigurationParser</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser">
+         <apiName>LoadingSettingsXMLNodeParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.configuration">
+      <apiName>org.vostokframework.configuration</apiName>
+      <apiClassifier id="org.vostokframework.configuration:AssetConfiguration">
+         <apiName>AssetConfiguration</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration:VostokFrameworkConfiguration">
+         <apiName>VostokFrameworkConfiguration</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration:ConfigurationElementNames">
+         <apiName>ConfigurationElementNames</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.configuration:AssetPackageConfiguration">
+         <apiName>AssetPackageConfiguration</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.assets.errors">
+      <apiName>org.vostokframework.domain.assets.errors</apiName>
+      <apiClassifier id="org.vostokframework.domain.assets.errors:AssetNotFoundError">
+         <apiName>AssetNotFoundError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets.errors:UnsupportedAssetTypeError">
+         <apiName>UnsupportedAssetTypeError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets.errors:DuplicateAssetError">
+         <apiName>DuplicateAssetError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets.errors:AssetPackageNotFoundError">
+         <apiName>AssetPackageNotFoundError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets.errors:DuplicateAssetPackageError">
+         <apiName>DuplicateAssetPackageError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.assets">
+      <apiName>org.vostokframework.domain.assets</apiName>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetPackageRepository">
+         <apiName>AssetPackageRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetRepository">
+         <apiName>AssetRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetType">
+         <apiName>AssetType</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:UrlAssetParser">
+         <apiName>UrlAssetParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:Asset">
+         <apiName>Asset</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetPackage">
+         <apiName>AssetPackage</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetFactory">
+         <apiName>AssetFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.assets:AssetPackageFactory">
+         <apiName>AssetPackageFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.errors">
+      <apiName>org.vostokframework.domain.loading.errors</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.errors:LoaderNotFoundError">
+         <apiName>LoaderNotFoundError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.errors:DuplicateLoadingMonitorError">
+         <apiName>DuplicateLoadingMonitorError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.errors:LoadingMonitorNotFoundError">
+         <apiName>LoadingMonitorNotFoundError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.errors:DuplicateLoaderError">
+         <apiName>DuplicateLoaderError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.events">
+      <apiName>org.vostokframework.domain.loading.events</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.events:LoaderErrorEvent">
+         <apiName>LoaderErrorEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:ErrorEvent</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.events:LoaderEvent">
+         <apiName>LoaderEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.loaders">
+      <apiName>org.vostokframework.domain.loading.loaders</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.loaders:VostokLoaderFactory">
+         <apiName>VostokLoaderFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoaderFactory</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.loaders:VostokLoader">
+         <apiName>VostokLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoaderStateTransition</apiBaseInterface>
+               <apiBaseClassifier>flash.events:EventDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.settings">
+      <apiName>org.vostokframework.domain.loading.settings</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingPolicySettings">
+         <apiName>LoadingPolicySettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory">
+         <apiName>LoadingSettingsFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting">
+         <apiName>ApplicationDomainSetting</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings">
+         <apiName>LoadingSecuritySettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingMediaSettings">
+         <apiName>LoadingMediaSettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingExtraSettings">
+         <apiName>LoadingExtraSettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingCacheSettings">
+         <apiName>LoadingCacheSettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSettings">
+         <apiName>LoadingSettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.settings:SecurityDomainSetting">
+         <apiName>SecurityDomainSetting</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.fileloader.adapters">
+      <apiName>org.vostokframework.domain.loading.states.fileloader.adapters</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoCreateNetStreamVideo">
+         <apiName>AutoCreateNetStreamVideo</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior">
+         <apiName>DataLoaderBehavior</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory">
+         <apiName>DataLoaderFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoaderFactory</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoStopNetStream">
+         <apiName>AutoStopNetStream</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter">
+         <apiName>NativeURLLoaderAdapter</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter">
+         <apiName>NativeSoundAdapter</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream">
+         <apiName>ProgressNetStream</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter">
+         <apiName>NativeLoaderAdapter</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter">
+         <apiName>NativeNetStreamAdapter</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoResizeNetStreamVideo">
+         <apiName>AutoResizeNetStreamVideo</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter">
+         <apiName>DataLoaderAdapter</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.fileloader.algorithms.events">
+      <apiName>org.vostokframework.domain.loading.states.fileloader.algorithms.events</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms.events:FileLoadingAlgorithmEvent">
+         <apiName>FileLoadingAlgorithmEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms.events:FileLoadingAlgorithmMediaEvent">
+         <apiName>FileLoadingAlgorithmMediaEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms.events:FileLoadingAlgorithmErrorEvent">
+         <apiName>FileLoadingAlgorithmErrorEvent</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.events:Event</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.fileloader.algorithms">
+      <apiName>org.vostokframework.domain.loading.states.fileloader.algorithms</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:MaxAttemptsFileLoadingAlgorithm">
+         <apiName>MaxAttemptsFileLoadingAlgorithm</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithmBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:DelayableFileLoadingAlgorithm">
+         <apiName>DelayableFileLoadingAlgorithm</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithmBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithm">
+         <apiName>FileLoadingAlgorithm</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithm</apiBaseInterface>
+               <apiBaseClassifier>flash.events:EventDispatcher</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithmFactory">
+         <apiName>FileLoadingAlgorithmFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithmFactory</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:LatencyTimeoutFileLoadingAlgorithm">
+         <apiName>LatencyTimeoutFileLoadingAlgorithm</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithmBehavior</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.algorithms:FileLoadingAlgorithmBehavior">
+         <apiName>FileLoadingAlgorithmBehavior</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithm</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.fileloader.dataparsers">
+      <apiName>org.vostokframework.domain.loading.states.fileloader.dataparsers</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.dataparsers:CSSDataParser">
+         <apiName>CSSDataParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:IDataParser</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader.dataparsers:XMLDataParser">
+         <apiName>XMLDataParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:IDataParser</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.fileloader">
+      <apiName>org.vostokframework.domain.loading.states.fileloader</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:StoppedFileLoader">
+         <apiName>StoppedFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:FailedFileLoader">
+         <apiName>FailedFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:CompleteFileLoader">
+         <apiName>CompleteFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:IDataLoader">
+         <apiName>IDataLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:FileLoaderState">
+         <apiName>FileLoaderState</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoaderState</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:QueuedFileLoader">
+         <apiName>QueuedFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:CanceledFileLoader">
+         <apiName>CanceledFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithm">
+         <apiName>IFileLoadingAlgorithm</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:IDataLoaderFactory">
+         <apiName>IDataLoaderFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithmFactory">
+         <apiName>IFileLoadingAlgorithmFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.fileloader:LoadingFileLoader">
+         <apiName>LoadingFileLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader:FileLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.queueloader.policies">
+      <apiName>org.vostokframework.domain.loading.states.queueloader.policies</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy">
+         <apiName>AbstractQueueLoadingPolicy</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading.states.queueloader:IQueueLoadingPolicy</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:SpecialHighestLowestQueueLoadingPolicy">
+         <apiName>SpecialHighestLowestQueueLoadingPolicy</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:SimpleQueueLoadingPolicy">
+         <apiName>SimpleQueueLoadingPolicy</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading.states.queueloader">
+      <apiName>org.vostokframework.domain.loading.states.queueloader</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:QueuedQueueLoader">
+         <apiName>QueuedQueueLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:CanceledQueueLoader">
+         <apiName>CanceledQueueLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:LoadingQueueLoader">
+         <apiName>LoadingQueueLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:CompleteQueueLoader">
+         <apiName>CompleteQueueLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:StoppedQueueLoader">
+         <apiName>StoppedQueueLoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoaderState</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:QueueLoadingStatus">
+         <apiName>QueueLoadingStatus</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:IQueueLoadingPolicy">
+         <apiName>IQueueLoadingPolicy</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading.states.queueloader:QueueLoaderState">
+         <apiName>QueueLoaderState</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoaderState</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.domain.loading">
+      <apiName>org.vostokframework.domain.loading</apiName>
+      <apiClassifier id="org.vostokframework.domain.loading:DataParserRepository">
+         <apiName>DataParserRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:LoadPriority">
+         <apiName>LoadPriority</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:LoadError">
+         <apiName>LoadError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:ILoader">
+         <apiName>ILoader</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IPriority</apiBaseInterface>
+               <apiBaseInterface>org.as3coreaddendum.system:IIndexable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:ILoaderState">
+         <apiName>ILoaderState</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:ILoaderFactory">
+         <apiName>ILoaderFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:IDataParser">
+         <apiName>IDataParser</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:LoaderRepository">
+         <apiName>LoaderRepository</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:ILoadingSettingsFactory">
+         <apiName>ILoadingSettingsFactory</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:ILoaderStateTransition">
+         <apiName>ILoaderStateTransition</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiInterface/>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.vostokframework.domain.loading:ILoader</apiBaseInterface>
+               <apiBaseClassifier/>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:LoadErrorType">
+         <apiName>LoadErrorType</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework.domain.loading:GlobalLoadingSettings">
+         <apiName>GlobalLoadingSettings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework.errors">
+      <apiName>org.vostokframework.errors</apiName>
+      <apiClassifier id="org.vostokframework.errors:VostokFrameworkError">
+         <apiName>VostokFrameworkError</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Error</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+   <apiPackage id="org.vostokframework">
+      <apiName>org.vostokframework</apiName>
+      <apiClassifier id="org.vostokframework:VostokIdentification">
+         <apiName>VostokIdentification</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+      <apiClassifier id="org.vostokframework:VostokFramework">
+         <apiName>VostokFramework</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+      </apiClassifier>
+   </apiPackage>
+</allClasses>

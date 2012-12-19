@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading.errors"><apiName>org.vostokframework.domain.loading.errors</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading.errors:LoaderNotFoundError"><apiName>LoaderNotFoundError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.errors:LoaderNotFoundError:LoaderNotFoundError"><apiName>LoaderNotFoundError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loaderIdentification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading.errors:LoaderNotFoundError:loaderIdentification:get"><apiName>loaderIdentification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.errors:DuplicateLoadingMonitorError"><apiName>DuplicateLoadingMonitorError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.errors:DuplicateLoadingMonitorError:DuplicateLoadingMonitorError"><apiName>DuplicateLoadingMonitorError</apiName><shortdesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.errors:LoadingMonitorNotFoundError"><apiName>LoadingMonitorNotFoundError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.errors:LoadingMonitorNotFoundError:LoadingMonitorNotFoundError"><apiName>LoadingMonitorNotFoundError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.errors:DuplicateLoaderError"><apiName>DuplicateLoaderError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.errors:DuplicateLoaderError:DuplicateLoaderError"><apiName>DuplicateLoaderError</apiName><shortdesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loaderIdentification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading.errors:DuplicateLoaderError:loaderIdentification:get"><apiName>loaderIdentification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>

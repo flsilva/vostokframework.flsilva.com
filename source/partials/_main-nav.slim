@@ -1,0 +1,14 @@
+ul.nav-bar.main-nav.float-right
+  li class==get_active_nav_class(/^\/(\z|blog)/)
+    a href="/" About
+  li.has-flyout class==get_active_nav_class(/\/docs\//)
+    a href="#" Docs
+    a.flyout-toggle href="#"
+      span
+    ul.flyout
+      li
+        a href="/docs/asdoc" ASDoc
+      li
+        a href="/docs/coverage-report" Coverage Report
+  li class==get_active_nav_class(/\/source\/\z/)
+    a href="https://github.com/flsilva/vostokframework" target="_blank" onClick="_gaq.push(['_trackEvent', 'Main Navigation', 'Click', 'Source']);" Source

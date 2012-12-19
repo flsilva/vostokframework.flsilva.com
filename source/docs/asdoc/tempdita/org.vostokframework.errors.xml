@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.errors"><apiName>org.vostokframework.errors</apiName><apiDetail/><apiClassifier id="org.vostokframework.errors:VostokFrameworkError"><apiName>VostokFrameworkError</apiName><shortdesc>
+	 The base error type, extended by all other errors of the framework.</shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Error</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 The base error type, extended by all other errors of the framework.
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.errors:VostokFrameworkError:VostokFrameworkError"><apiName>VostokFrameworkError</apiName><shortdesc>
+		 Constructor, creates a new VostokFrameworkError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new VostokFrameworkError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor></apiClassifier></apiPackage>

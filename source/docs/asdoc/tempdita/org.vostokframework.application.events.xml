@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application.events"><apiName>org.vostokframework.application.events</apiName><apiDetail/><apiClassifier id="org.vostokframework.application.events:GlobalLoadingEvent"><apiName>GlobalLoadingEvent</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>flash.events:Event</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.events:GlobalLoadingEvent:GlobalLoadingEvent"><apiName>GlobalLoadingEvent</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>queueId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>queueLocale</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>monitoring</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.events:GlobalLoadingEvent:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="flash.events:Event"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.events:GlobalLoadingEvent:typeBelongs"><apiName>typeBelongs</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:CANCELED"><apiName>CANCELED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.GlobalLoadingEvent.CANCELED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:COMPLETE"><apiName>COMPLETE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.GlobalLoadingEvent.COMPLETE</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:OPEN"><apiName>OPEN</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.GlobalLoadingEvent.OPEN</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:PROGRESS"><apiName>PROGRESS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.GlobalLoadingEvent.PROGRESS</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:STOPPED"><apiName>STOPPED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.GlobalLoadingEvent.STOPPED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:monitoring:get"><apiName>monitoring</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:queueId:get"><apiName>queueId</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:GlobalLoadingEvent:queueLocale:get"><apiName>queueLocale</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.events:AssetLoadingErrorEvent"><apiName>AssetLoadingErrorEvent</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>flash.events:ErrorEvent</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.events:AssetLoadingErrorEvent:AssetLoadingErrorEvent"><apiName>AssetLoadingErrorEvent</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetLocale</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetType</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>errors</apiItemName><apiType value="org.as3collections:IList"/></apiParam><apiParam><apiItemName>monitoring</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiOperationClassifier><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.events:AssetLoadingErrorEvent:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="flash.events:Event"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:FAILED"><apiName>FAILED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingErrorEvent.FAILED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:assetId:get"><apiName>assetId</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:assetLocale:get"><apiName>assetLocale</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:assetType:get"><apiName>assetType</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:errors:get"><apiName>errors</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="org.as3collections:IList"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:httpStatus:get"><apiName>httpStatus</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingErrorEvent:monitoring:get"><apiName>monitoring</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.events:QueueLoadingEvent"><apiName>QueueLoadingEvent</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>flash.events:Event</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.events:QueueLoadingEvent:QueueLoadingEvent"><apiName>QueueLoadingEvent</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>queueId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>queueLocale</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>monitoring</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.events:QueueLoadingEvent:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="flash.events:Event"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.events:QueueLoadingEvent:typeBelongs"><apiName>typeBelongs</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:CANCELED"><apiName>CANCELED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.QueueLoadingEvent.CANCELED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:COMPLETE"><apiName>COMPLETE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.QueueLoadingEvent.COMPLETE</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:OPEN"><apiName>OPEN</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.QueueLoadingEvent.OPEN</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:PROGRESS"><apiName>PROGRESS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.QueueLoadingEvent.PROGRESS</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:STOPPED"><apiName>STOPPED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.QueueLoadingEvent.STOPPED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:monitoring:get"><apiName>monitoring</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:queueId:get"><apiName>queueId</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:QueueLoadingEvent:queueLocale:get"><apiName>queueLocale</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.events:AssetLoadingEvent"><apiName>AssetLoadingEvent</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>flash.events:Event</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.events:AssetLoadingEvent:AssetLoadingEvent"><apiName>AssetLoadingEvent</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetLocale</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetType</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>monitoring</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiOperationClassifier><apiData>null</apiData></apiParam><apiParam><apiItemName>assetData</apiItemName><apiType value="any"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.events:AssetLoadingEvent:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="flash.events:Event"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.events:AssetLoadingEvent:typeBelongs"><apiName>typeBelongs</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:CANCELED"><apiName>CANCELED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.CANCELED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:COMPLETE"><apiName>COMPLETE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.COMPLETE</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:HTTP_STATUS"><apiName>HTTP_STATUS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.HTTP_STATUS</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:INIT"><apiName>INIT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.INIT</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:OPEN"><apiName>OPEN</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.OPEN</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:PROGRESS"><apiName>PROGRESS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.PROGRESS</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:STOPPED"><apiName>STOPPED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFramework.AssetLoadingEvent.STOPPED</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:assetData:get"><apiName>assetData</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="any"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:assetId:get"><apiName>assetId</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:assetLocale:get"><apiName>assetLocale</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:assetType:get"><apiName>assetType</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:httpStatus:get"><apiName>httpStatus</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.events:AssetLoadingEvent:monitoring:get"><apiName>monitoring</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier></apiPackage>

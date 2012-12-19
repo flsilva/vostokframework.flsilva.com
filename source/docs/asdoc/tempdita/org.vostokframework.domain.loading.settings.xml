@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading.settings"><apiName>org.vostokframework.domain.loading.settings</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingPolicySettings"><apiName>LoadingPolicySettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingPolicySettings:LoadingPolicySettings"><apiName>LoadingPolicySettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingPolicySettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingPolicySettings:latencyTimeout:get"><apiName>latencyTimeout</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Number"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingPolicySettings:maxAttempts:get"><apiName>maxAttempts</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingPolicySettings:priority:get"><apiName>priority</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory"><apiName>LoadingSettingsFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory:LoadingSettingsFactory"><apiName>LoadingSettingsFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory:create"><apiName>create</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory:setDefaultLoadingSettings"><apiName>setDefaultLoadingSettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;settings&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettingsFactory:defaultLoadingSettings:get"><apiName>defaultLoadingSettings</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting"><apiName>ApplicationDomainSetting</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting:ApplicationDomainSetting"><apiName>ApplicationDomainSetting</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>name</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting:APART"><apiName>APART</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading.settings:ApplicationDomainSetting</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting:CHILD"><apiName>CHILD</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading.settings:ApplicationDomainSetting</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:ApplicationDomainSetting:CURRENT"><apiName>CURRENT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading.settings:ApplicationDomainSetting</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings"><apiName>LoadingSecuritySettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:LoadingSecuritySettings"><apiName>LoadingSecuritySettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:applicationDomain:get"><apiName>applicationDomain</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:ApplicationDomainSetting</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:checkPolicyFile:get"><apiName>checkPolicyFile</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:ignoreLocalSecurityDomain:get"><apiName>ignoreLocalSecurityDomain</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSecuritySettings:securityDomain:get"><apiName>securityDomain</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:SecurityDomainSetting</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingMediaSettings"><apiName>LoadingMediaSettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:LoadingMediaSettings"><apiName>LoadingMediaSettings</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:audioLinkage:get"><apiName>audioLinkage</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="org.as3collections:IList"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:autoCreateVideo:get"><apiName>autoCreateVideo</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:autoResizeVideo:get"><apiName>autoResizeVideo</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:autoStopStream:get"><apiName>autoStopStream</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:bufferPercent:get"><apiName>bufferPercent</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingMediaSettings:bufferTime:get"><apiName>bufferTime</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Number"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingExtraSettings"><apiName>LoadingExtraSettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingExtraSettings:LoadingExtraSettings"><apiName>LoadingExtraSettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingExtraSettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingExtraSettings:baseURL:get"><apiName>baseURL</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingExtraSettings:userDataContainer:get"><apiName>userDataContainer</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="any"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingExtraSettings:userTotalBytes:get"><apiName>userTotalBytes</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingCacheSettings"><apiName>LoadingCacheSettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingCacheSettings:LoadingCacheSettings"><apiName>LoadingCacheSettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingCacheSettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingCacheSettings:allowInternalCache:get"><apiName>allowInternalCache</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingCacheSettings:killExternalCache:get"><apiName>killExternalCache</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:LoadingSettings"><apiName>LoadingSettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:ICloneable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:LoadingSettings:LoadingSettings"><apiName>LoadingSettings</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.settings:LoadingSettings:clone"><apiName>clone</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettings:cache:get"><apiName>cache</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingCacheSettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettings:extra:get"><apiName>extra</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingExtraSettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettings:media:get"><apiName>media</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingMediaSettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettings:policy:get"><apiName>policy</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingPolicySettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading.settings:LoadingSettings:security:get"><apiName>security</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingSecuritySettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.settings:SecurityDomainSetting"><apiName>SecurityDomainSetting</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.settings:SecurityDomainSetting:SecurityDomainSetting"><apiName>SecurityDomainSetting</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>name</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading.settings:SecurityDomainSetting:CURRENT"><apiName>CURRENT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading.settings:SecurityDomainSetting</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>

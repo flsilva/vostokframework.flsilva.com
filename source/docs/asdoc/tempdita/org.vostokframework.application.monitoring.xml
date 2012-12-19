@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application.monitoring"><apiName>org.vostokframework.application.monitoring</apiName><apiDetail/><apiClassifier id="org.vostokframework.application.monitoring:ILoadingMonitor"><apiName>ILoadingMonitor</apiName><shortdesc>
+	 Description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 Description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:addChild"><apiName>addChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>child</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:addChildren"><apiName>addChildren</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>children</apiItemName><apiType value="org.as3collections:IList"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:containsChild"><apiName>containsChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:getChild"><apiName>getChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:removeChild"><apiName>removeChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:loader:get"><apiName>loader</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:ILoader</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:ILoadingMonitor:org.vostokframework.application.monitoring:ILoadingMonitor:monitoring:get"><apiName>monitoring</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitoring</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.monitoring:LoadingMonitorRepository"><apiName>LoadingMonitorRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.monitoring:LoadingMonitorRepository:LoadingMonitorRepository"><apiName>LoadingMonitorRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;report&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>monitor</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;identification&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:findAll"><apiName>findAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;identification&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitorRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application.monitoring:LoadingMonitoring"><apiName>LoadingMonitoring</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.monitoring:LoadingMonitoring:LoadingMonitoring"><apiName>LoadingMonitoring</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>latency</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>bufferPercent</apiItemName><apiType value="int"/><apiData>100</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitoring:reset"><apiName>reset</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.monitoring:LoadingMonitoring:update"><apiName>update</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bytesTotal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>bytesLoaded</apiItemName><apiType value="int"/></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:averageSpeed:get"><apiName>averageSpeed</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:bufferBytesRemaining:get"><apiName>bufferBytesRemaining</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:bufferPercent:get"><apiName>bufferPercent</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:bytesLoaded:get"><apiName>bytesLoaded</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:bytesRemaining:get"><apiName>bytesRemaining</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:bytesTotal:get"><apiName>bytesTotal</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:currentSpeed:get"><apiName>currentSpeed</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:elapsedTime:get"><apiName>elapsedTime</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:latency:get"><apiName>latency</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:percent:get"><apiName>percent</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.monitoring:LoadingMonitoring:remainingTime:get"><apiName>remainingTime</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier></apiPackage>

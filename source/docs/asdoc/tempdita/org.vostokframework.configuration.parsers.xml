@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.configuration.parsers"><apiName>org.vostokframework.configuration.parsers</apiName><apiDetail/><apiClassifier id="org.vostokframework.configuration.parsers:IConfigurationParser"><apiName>IConfigurationParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.configuration.parsers:IConfigurationParser:org.vostokframework.configuration.parsers:IConfigurationParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.configuration:VostokFrameworkConfiguration</apiOperationClassifier></apiReturn><apiParam><apiItemName>configuration</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

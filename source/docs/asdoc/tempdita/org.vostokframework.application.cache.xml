@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application.cache"><apiName>org.vostokframework.application.cache</apiName><apiDetail/><apiClassifier id="org.vostokframework.application.cache:CachedAssetData"><apiName>CachedAssetData</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.cache:CachedAssetData:CachedAssetData"><apiName>CachedAssetData</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>queueIdentification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>data</apiItemName><apiType value="any"/></apiParam><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier></apiParam><apiParam><apiItemName>src</apiItemName><apiType value="String"/></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.application.cache:CachedAssetData:bytesTotal:get"><apiName>bytesTotal</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:data:get"><apiName>data</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="any"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:latency:get"><apiName>latency</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:queueIdentification:get"><apiName>queueIdentification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:src:get"><apiName>src</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:totalTime:get"><apiName>totalTime</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application.cache:CachedAssetData:type:get"><apiName>type</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.cache:CachedAssetDataRepository"><apiName>CachedAssetDataRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.cache:CachedAssetDataRepository:CachedAssetDataRepository"><apiName>CachedAssetDataRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;report&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>report</apiItemName><apiOperationClassifier>org.vostokframework.application.cache:CachedAssetData</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;identification&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:findAll"><apiName>findAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;identification&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.cache:CachedAssetData</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.cache:CachedAssetDataRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading.states.fileloader.dataparsers"><apiName>org.vostokframework.domain.loading.states.fileloader.dataparsers</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.dataparsers:CSSDataParser"><apiName>CSSDataParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading:IDataParser</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.dataparsers:CSSDataParser:CSSDataParser"><apiName>CSSDataParser</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.dataparsers:CSSDataParser:equals"><apiName>equals</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>other</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.dataparsers:CSSDataParser:parse"><apiName>parse</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn><apiParam><apiItemName>data</apiItemName><apiType value="any"/></apiParam></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.dataparsers:XMLDataParser"><apiName>XMLDataParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading:IDataParser</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.dataparsers:XMLDataParser:XMLDataParser"><apiName>XMLDataParser</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.dataparsers:XMLDataParser:equals"><apiName>equals</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>other</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.dataparsers:XMLDataParser:parse"><apiName>parse</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn><apiParam><apiItemName>data</apiItemName><apiType value="any"/></apiParam></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.configuration.parsers.errors"><apiName>org.vostokframework.configuration.parsers.errors</apiName><apiDetail/><apiClassifier id="org.vostokframework.configuration.parsers.errors:ConfigurationParserError"><apiName>ConfigurationParserError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.errors:ConfigurationParserError:ConfigurationParserError"><apiName>ConfigurationParserError</apiName><shortdesc>
+		 Constructor, creates a new ConfigurationParserError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new ConfigurationParserError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor></apiClassifier></apiPackage>

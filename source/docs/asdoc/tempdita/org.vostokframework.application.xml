@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application"><apiName>org.vostokframework.application</apiName><apiDetail/><apiClassifier id="org.vostokframework.application:LoadingSettingsRepository"><apiName>LoadingSettingsRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application:LoadingSettingsRepository:LoadingSettingsRepository"><apiName>LoadingSettingsRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loader&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;ILoader&lt;/codeph&gt; object stored with the same &lt;codeph&gt;id&lt;/codeph&gt; of the provided &lt;codeph&gt;loader&lt;/codeph&gt; argument.
+		 </apiDesc><apiItemName>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiItemName><apiOperationClassifier>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingSettingsRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application:LoadingContext"><apiName>LoadingContext</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application:LoadingContext:LoadingContext"><apiName>LoadingContext</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application:LoadingContext:getInstance"><apiName>getInstance</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiDesc>
+ 		 </apiDesc><apiOperationClassifier>org.vostokframework.application:LoadingContext</apiOperationClassifier></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setCachedAssetDataRepository"><apiName>setCachedAssetDataRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.application.cache:CachedAssetDataRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setGlobalQueueLoader"><apiName>setGlobalQueueLoader</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>queueLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setLoaderFactory"><apiName>setLoaderFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>factory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoaderFactory</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setLoaderRepository"><apiName>setLoaderRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoaderRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setLoadingMonitorRepository"><apiName>setLoadingMonitorRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.application.monitoring:LoadingMonitorRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setLoadingSettingsFactory"><apiName>setLoadingSettingsFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>factory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setLoadingSettingsRepository"><apiName>setLoadingSettingsRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.application:LoadingSettingsRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:LoadingContext:setMaxConcurrentQueues"><apiName>setMaxConcurrentQueues</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>value</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application:LoadingContext:cachedAssetDataRepository:get"><apiName>cachedAssetDataRepository</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.cache:CachedAssetDataRepository</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:globalLoadingSettings:get"><apiName>globalLoadingSettings</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:globalQueueLoader:get"><apiName>globalQueueLoader</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:ILoader</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:globalQueueLoadingMonitor:get"><apiName>globalQueueLoadingMonitor</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:loaderFactory:get"><apiName>loaderFactory</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:ILoaderFactory</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:loaderRepository:get"><apiName>loaderRepository</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:LoaderRepository</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:loadingMonitorRepository:get"><apiName>loadingMonitorRepository</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application.monitoring:LoadingMonitorRepository</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:loadingSettingsFactory:get"><apiName>loadingSettingsFactory</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:loadingSettingsRepository:get"><apiName>loadingSettingsRepository</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.application:LoadingSettingsRepository</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:LoadingContext:maxConcurrentQueues:get"><apiName>maxConcurrentQueues</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application:AssetsContext"><apiName>AssetsContext</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application:AssetsContext:AssetsContext"><apiName>AssetsContext</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application:AssetsContext:getInstance"><apiName>getInstance</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiDesc>
+ 		 </apiDesc><apiOperationClassifier>org.vostokframework.application:AssetsContext</apiOperationClassifier></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:AssetsContext:setAssetFactory"><apiName>setAssetFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>factory</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetFactory</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:AssetsContext:setAssetPackageFactory"><apiName>setAssetPackageFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>factory</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackageFactory</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:AssetsContext:setAssetPackageRepository"><apiName>setAssetPackageRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackageRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application:AssetsContext:setAssetRepository"><apiName>setAssetRepository</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>repository</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetRepository</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.application:AssetsContext:assetFactory:get"><apiName>assetFactory</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetFactory</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:AssetsContext:assetPackageFactory:get"><apiName>assetPackageFactory</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetPackageFactory</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:AssetsContext:assetPackageRepository:get"><apiName>assetPackageRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetPackageRepository</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.application:AssetsContext:assetRepository:get"><apiName>assetRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetRepository</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier></apiPackage>

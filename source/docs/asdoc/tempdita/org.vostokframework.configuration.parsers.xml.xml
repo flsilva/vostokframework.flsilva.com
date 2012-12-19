@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.configuration.parsers.xml"><apiName>org.vostokframework.configuration.parsers.xml</apiName><apiDetail/><apiClassifier id="org.vostokframework.configuration.parsers.xml:AssetPackageXMLNodeParser"><apiName>AssetPackageXMLNodeParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.xml:AssetPackageXMLNodeParser:AssetPackageXMLNodeParser"><apiName>AssetPackageXMLNodeParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>assetXMLNodeParser</apiItemName><apiOperationClassifier>org.vostokframework.configuration.parsers.xml:AssetXMLNodeParser</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.xml:AssetPackageXMLNodeParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="org.as3collections:IList"/></apiReturn><apiParam><apiItemName>node</apiItemName><apiType value="XMLList"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.configuration.parsers.xml:AssetXMLNodeParser"><apiName>AssetXMLNodeParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.xml:AssetXMLNodeParser:AssetXMLNodeParser"><apiName>AssetXMLNodeParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>settingsParser</apiItemName><apiOperationClassifier>org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.xml:AssetXMLNodeParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="org.as3collections:IList"/></apiReturn><apiParam><apiItemName>assets</apiItemName><apiType value="XMLList"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.configuration.parsers.xml:XMLConfigurationElementNames"><apiName>XMLConfigurationElementNames</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.configuration:ConfigurationElementNames</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.xml:XMLConfigurationElementNames:XMLConfigurationElementNames"><apiName>XMLConfigurationElementNames</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor></apiClassifier><apiClassifier id="org.vostokframework.configuration.parsers.xml:XMLConfigurationParser"><apiName>XMLConfigurationParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.configuration.parsers:IConfigurationParser</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.xml:XMLConfigurationParser:XMLConfigurationParser"><apiName>XMLConfigurationParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>assetPackageParser</apiItemName><apiOperationClassifier>org.vostokframework.configuration.parsers.xml:AssetPackageXMLNodeParser</apiOperationClassifier></apiParam><apiParam><apiItemName>settingsParser</apiItemName><apiOperationClassifier>org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser</apiOperationClassifier></apiParam><apiParam><apiItemName>settingsFactory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.xml:XMLConfigurationParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.configuration:VostokFrameworkConfiguration</apiOperationClassifier></apiReturn><apiParam><apiItemName>configuration</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser"><apiName>LoadingSettingsXMLNodeParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser:LoadingSettingsXMLNodeParser"><apiName>LoadingSettingsXMLNodeParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loadingSettingsFactory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.xml:LoadingSettingsXMLNodeParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiReturn><apiParam><apiItemName>settings</apiItemName><apiType value="XML"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

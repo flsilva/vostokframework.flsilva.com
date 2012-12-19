@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading"><apiName>org.vostokframework.domain.loading</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading:DataParserRepository"><apiName>DataParserRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:DataParserRepository:DataParserRepository"><apiName>DataParserRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loader&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;ILoader&lt;/codeph&gt; object stored with the same &lt;codeph&gt;id&lt;/codeph&gt; of the provided &lt;codeph&gt;loader&lt;/codeph&gt; argument.
+		 </apiDesc><apiItemName>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiItemName><apiOperationClassifier>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>parser</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:IDataParser</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam><apiParam><apiItemName>parser</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:IDataParser</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam><apiParam><apiItemName>parser</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:IDataParser</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:DataParserRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:LoadPriority"><apiName>LoadPriority</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:LoadPriority:LoadPriority"><apiName>LoadPriority</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>name</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading:LoadPriority:getByOrdinal"><apiName>getByOrdinal</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:LoadPriority</apiOperationClassifier></apiReturn><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:LoadPriority:HIGHEST"><apiName>HIGHEST</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadPriority:HIGH"><apiName>HIGH</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadPriority:LOWEST"><apiName>LOWEST</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadPriority:LOW"><apiName>LOW</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadPriority:MEDIUM"><apiName>MEDIUM</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadPriority</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:LoadError"><apiName>LoadError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:LoadError:LoadError"><apiName>LoadError</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoadErrorType</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading:LoadError:message:get"><apiName>message</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadError:type:get"><apiName>type</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:ILoader"><apiName>ILoader</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseInterface>flash.events:IEventDispatcher</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IPriority</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IIndexable</apiBaseInterface><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:addChild"><apiName>addChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>child</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:addChildren"><apiName>addChildren</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>children</apiItemName><apiType value="org.as3collections:IList"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:cancelChild"><apiName>cancelChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:cancel"><apiName>cancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:containsChild"><apiName>containsChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:getChild"><apiName>getChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:getParent"><apiName>getParent</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:load"><apiName>load</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:removeChild"><apiName>removeChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:resumeChild"><apiName>resumeChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:setMaxConcurrentConnections"><apiName>setMaxConcurrentConnections</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>value</apiItemName><apiType value="int"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:stopChild"><apiName>stopChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:stop"><apiName>stop</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:isLoading:get"><apiName>isLoading</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:isQueued:get"><apiName>isQueued</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:isStopped:get"><apiName>isStopped</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:maxConcurrentConnections:get"><apiName>maxConcurrentConnections</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoader:org.vostokframework.domain.loading:ILoader:openedConnections:get"><apiName>openedConnections</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:ILoaderState"><apiName>ILoaderState</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:addChild"><apiName>addChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>child</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:addChildren"><apiName>addChildren</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>children</apiItemName><apiType value="org.as3collections:IList"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:cancelChild"><apiName>cancelChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:cancel"><apiName>cancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:containsChild"><apiName>containsChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:getChild"><apiName>getChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:getParent"><apiName>getParent</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:load"><apiName>load</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:removeChild"><apiName>removeChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:resumeChild"><apiName>resumeChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:setLoader"><apiName>setLoader</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>loader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoaderStateTransition</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:setMaxConcurrentConnections"><apiName>setMaxConcurrentConnections</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>value</apiItemName><apiType value="int"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:stopChild"><apiName>stopChild</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:stop"><apiName>stop</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:isLoading:get"><apiName>isLoading</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:isQueued:get"><apiName>isQueued</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:isStopped:get"><apiName>isStopped</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:maxConcurrentConnections:get"><apiName>maxConcurrentConnections</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:ILoaderState:org.vostokframework.domain.loading:ILoaderState:openedConnections:get"><apiName>openedConnections</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:ILoaderFactory"><apiName>ILoaderFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:ILoaderFactory:org.vostokframework.domain.loading:ILoaderFactory:createComposite"><apiName>createComposite</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam><apiParam><apiItemName>loaderRepository</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoaderRepository</apiOperationClassifier></apiParam><apiParam><apiItemName>globalLoadingSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiOperationClassifier></apiParam><apiParam><apiItemName>priority</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoadPriority</apiOperationClassifier><apiData>null</apiData></apiParam><apiParam><apiItemName>localMaxConnections</apiItemName><apiType value="int"/><apiData>3</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderFactory:org.vostokframework.domain.loading:ILoaderFactory:createLeaf"><apiName>createLeaf</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam><apiParam><apiItemName>src</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier></apiParam><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier><apiData>null</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoaderFactory:org.vostokframework.domain.loading:ILoaderFactory:setFileLoadingAlgorithmFactory"><apiName>setFileLoadingAlgorithmFactory</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>factory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithmFactory</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:ILoaderFactory:org.vostokframework.domain.loading:ILoaderFactory:fileLoadingAlgorithmFactory:get"><apiName>fileLoadingAlgorithmFactory</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading.states.fileloader:IFileLoadingAlgorithmFactory</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:IDataParser"><apiName>IDataParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:IDataParser:org.vostokframework.domain.loading:IDataParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn><apiParam><apiItemName>data</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:LoaderRepository"><apiName>LoaderRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:LoaderRepository:LoaderRepository"><apiName>LoaderRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loader&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;ILoader&lt;/codeph&gt; object stored with the same &lt;codeph&gt;id&lt;/codeph&gt; of the provided &lt;codeph&gt;loader&lt;/codeph&gt; argument.
+		 </apiDesc><apiItemName>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiItemName><apiOperationClassifier>org.vostokframework.loadermanagement.errors:DuplicateLoaderError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>loader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:findAll"><apiName>findAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:findParentLoader"><apiName>findParentLoader</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>childIdentification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.loading:ILoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:removeAll"><apiName>removeAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaders&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loaders</apiItemName><apiType value="org.as3collections:IList"/><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;loaderId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:LoaderRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:LoaderRepository:openedConnections:get"><apiName>openedConnections</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:ILoadingSettingsFactory"><apiName>ILoadingSettingsFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:ILoadingSettingsFactory:org.vostokframework.domain.loading:ILoadingSettingsFactory:create"><apiName>create</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading:ILoadingSettingsFactory:org.vostokframework.domain.loading:ILoadingSettingsFactory:setDefaultLoadingSettings"><apiName>setDefaultLoadingSettings</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:ILoadingSettingsFactory:org.vostokframework.domain.loading:ILoadingSettingsFactory:defaultLoadingSettings:get"><apiName>defaultLoadingSettings</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:ILoaderStateTransition"><apiName>ILoaderStateTransition</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiInterface/><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading:ILoader</apiBaseInterface><apiBaseClassifier/></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiOperation id="org.vostokframework.domain.loading:ILoaderStateTransition:org.vostokframework.domain.loading:ILoaderStateTransition:setState"><apiName>setState</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>state</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoaderState</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:LoadErrorType"><apiName>LoadErrorType</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:LoadErrorType:LoadErrorType"><apiName>LoadErrorType</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>name</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.loading:LoadErrorType:ASYNC_ERROR"><apiName>ASYNC_ERROR</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadErrorType:IO_ERROR"><apiName>IO_ERROR</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadErrorType:LATENCY_TIMEOUT_ERROR"><apiName>LATENCY_TIMEOUT_ERROR</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadErrorType:SECURITY_ERROR"><apiName>SECURITY_ERROR</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.loading:LoadErrorType:UNKNOWN_ERROR"><apiName>UNKNOWN_ERROR</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.loading:LoadErrorType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading:GlobalLoadingSettings"><apiName>GlobalLoadingSettings</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading:GlobalLoadingSettings:GlobalLoadingSettings"><apiName>GlobalLoadingSettings</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading:GlobalLoadingSettings:getInstance"><apiName>getInstance</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiDesc>
+ 		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiOperationClassifier></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading:GlobalLoadingSettings:maxConcurrentConnections:get"><apiName>maxConcurrentConnections</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier></apiPackage>

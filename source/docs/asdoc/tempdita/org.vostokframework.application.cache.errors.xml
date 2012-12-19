@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application.cache.errors"><apiName>org.vostokframework.application.cache.errors</apiName><apiDetail/><apiClassifier id="org.vostokframework.application.cache.errors:AssetDataAlreadyCachedError"><apiName>AssetDataAlreadyCachedError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.cache.errors:AssetDataAlreadyCachedError:AssetDataAlreadyCachedError"><apiName>AssetDataAlreadyCachedError</apiName><shortdesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.application.cache.errors:AssetDataAlreadyCachedError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.application.cache.errors:CachedAssetDataNotFoundError"><apiName>CachedAssetDataNotFoundError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.cache.errors:CachedAssetDataNotFoundError:CachedAssetDataNotFoundError"><apiName>CachedAssetDataNotFoundError</apiName><shortdesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new DuplicateAssetLoaderError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.application.cache.errors:CachedAssetDataNotFoundError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>

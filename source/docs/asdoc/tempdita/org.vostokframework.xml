@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework"><apiName>org.vostokframework</apiName><apiDetail/><apiClassifier id="org.vostokframework:VostokIdentification"><apiName>VostokIdentification</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework:VostokIdentification:VostokIdentification"><apiName>VostokIdentification</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>id</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/></apiParam></apiConstructorDef></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework:VostokIdentification:equals"><apiName>equals</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>other</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework:VostokIdentification:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework:VostokIdentification:id:get"><apiName>id</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework:VostokIdentification:locale:get"><apiName>locale</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework:VostokFramework"><apiName>VostokFramework</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework:VostokFramework:VostokFramework"><apiName>VostokFramework</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework:VostokFramework:CROSS_LOCALE_ID"><apiName>CROSS_LOCALE_ID</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>CROSS-LOCALE</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework:VostokFramework:KILL_CACHE_VAR_NAME"><apiName>KILL_CACHE_VAR_NAME</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>VostokFrameworkKillCache</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework:VostokFramework:VERSION"><apiName>VERSION</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>0.1-SNAPSHOT</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.assets"><apiName>org.vostokframework.domain.assets</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.assets:AssetPackageRepository"><apiName>AssetPackageRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetPackageRepository:AssetPackageRepository"><apiName>AssetPackageRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackage&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;AssetPackage&lt;/codeph&gt; object stored with the same &lt;codeph&gt;id&lt;/codeph&gt; of the provided &lt;codeph&gt;assetPackage&lt;/codeph&gt; argument.
+		 </apiDesc><apiItemName>DuplicateAssetPackageError</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets.errors:DuplicateAssetPackageError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>assetPackage</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier><apiDesc>   assetPackage
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idPackageAsset
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:findAll"><apiName>findAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:findAssetPackageByAssetId"><apiName>findAssetPackageByAssetId</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idPackageAsset
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idPackageAsset
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackageRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:AssetRepository"><apiName>AssetRepository</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetRepository:AssetRepository"><apiName>AssetRepository</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetRepository:add"><apiName>add</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;asset&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;Asset&lt;/codeph&gt; object stored with the same &lt;codeph&gt;id&lt;/codeph&gt; of the provided &lt;codeph&gt;asset&lt;/codeph&gt; argument.
+		 </apiDesc><apiItemName>DuplicateAssetError</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets.errors:DuplicateAssetError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idPackageAsset
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:findAll"><apiName>findAll</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:find"><apiName>find</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idPackageAsset
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:remove"><apiName>remove</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>   idAssetPackage
+		 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetRepository:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:AssetType"><apiName>AssetType</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.as3coreaddendum.system:Enum</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetType:AssetType"><apiName>AssetType</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>name</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>ordinal</apiItemName><apiType value="int"/></apiParam></apiConstructorDef></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetType:getByName"><apiName>getByName</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier></apiReturn><apiParam><apiItemName>name</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetType:getTypes"><apiName>getTypes</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiStatic/><apiReturn><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.assets:AssetType:AAC"><apiName>AAC</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:CSS"><apiName>CSS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:IMAGE"><apiName>IMAGE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:JSON"><apiName>JSON</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:MP3"><apiName>MP3</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:SWF"><apiName>SWF</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:TXT"><apiName>TXT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:VIDEO"><apiName>VIDEO</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:AssetType:XML"><apiName>XML</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>unknown</apiData><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:UrlAssetParser"><apiName>UrlAssetParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:UrlAssetParser:UrlAssetParser"><apiName>UrlAssetParser</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:UrlAssetParser:getAssetType"><apiName>getAssetType</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier></apiReturn><apiParam><apiItemName>src</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:Asset"><apiName>Asset</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:Asset:Asset"><apiName>Asset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;id&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;src&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;type&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;src&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>src</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiDesc>   type
+		 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:Asset:dispose"><apiName>dispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:Asset:equals"><apiName>equals</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>other</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:Asset:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.assets:Asset:identification:get"><apiName>identification</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:Asset:src:get"><apiName>src</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="org.vostokframework.domain.assets:Asset:type:get"><apiName>type</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.assets:AssetType</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:AssetPackage"><apiName>AssetPackage</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.as3coreaddendum.system:IEquatable</apiBaseInterface><apiBaseInterface>org.as3coreaddendum.system:IDisposable</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetPackage:AssetPackage"><apiName>AssetPackage</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;id&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;locale&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetPackage:addAsset"><apiName>addAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;asset&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:addAssets"><apiName>addAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assets&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;assets&lt;/codeph&gt; argument contains any &lt;codeph&gt;null&lt;/codeph&gt; element.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assets</apiItemName><apiType value="org.as3collections:IList"/><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:clear"><apiName>clear</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:containsAsset"><apiName>containsAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:dispose"><apiName>dispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:equals"><apiName>equals</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>other</apiItemName><apiType value="any"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:getAsset"><apiName>getAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:getAssets"><apiName>getAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections.lists:ReadOnlyArrayList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:isEmpty"><apiName>isEmpty</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:removeAsset"><apiName>removeAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:removeAssets"><apiName>removeAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assets&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assets</apiItemName><apiType value="org.as3collections:IList"/><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:size"><apiName>size</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="int"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetPackage:toString"><apiName>toString</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="String"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.assets:AssetPackage:identification:get"><apiName>identification</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef><apiDesc>
+		 description
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:AssetFactory"><apiName>AssetFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetFactory:AssetFactory"><apiName>AssetFactory</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetFactory:create"><apiName>create</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;src&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;assetPackage&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;type&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; and the framework cannot get the Asset Type over its &lt;codeph&gt;src&lt;/codeph&gt; argument or the file extension in the &lt;codeph&gt;src&lt;/codeph&gt; argument is not supported.
+		 </apiDesc><apiItemName>org.vostokframework.domain.assets.errors:UnsupportedAssetType</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets.errors:UnsupportedAssetType</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier></apiReturn><apiParam><apiItemName>src</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetPackage</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>id</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.assets:AssetFactory:setUrlAssetParser"><apiName>setUrlAssetParser</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;settings&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>parser</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:UrlAssetParser</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.assets:AssetPackageFactory"><apiName>AssetPackageFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets:AssetPackageFactory:AssetPackageFactory"><apiName>AssetPackageFactory</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.assets:AssetPackageFactory:create"><apiName>create</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;id&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc></apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiReturn><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

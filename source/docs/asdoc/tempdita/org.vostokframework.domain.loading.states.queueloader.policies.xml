@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading.states.queueloader.policies"><apiName>org.vostokframework.domain.loading.states.queueloader.policies</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy"><apiName>AbstractQueueLoadingPolicy</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading.states.queueloader:IQueueLoadingPolicy</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy:AbstractQueueLoadingPolicy"><apiName>AbstractQueueLoadingPolicy</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loaderRepository</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoaderRepository</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>globalLoadingSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy:protected:isNextLoaderEligible"><apiName>isNextLoaderEligible</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loadingLoaders</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoadingStatus</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy:process"><apiName>process</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>loadingStatus</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoadingStatus</apiOperationClassifier></apiParam><apiParam><apiItemName>localMaxConnections</apiItemName><apiType value="int"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:SpecialHighestLowestQueueLoadingPolicy"><apiName>SpecialHighestLowestQueueLoadingPolicy</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.queueloader.policies:SpecialHighestLowestQueueLoadingPolicy:SpecialHighestLowestQueueLoadingPolicy"><apiName>SpecialHighestLowestQueueLoadingPolicy</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loaderRepository</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoaderRepository</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>globalLoadingSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.queueloader.policies:SpecialHighestLowestQueueLoadingPolicy:protected:isNextLoaderEligible"><apiName>isNextLoaderEligible</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loadingStatus</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoadingStatus</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.queueloader.policies:SimpleQueueLoadingPolicy"><apiName>SimpleQueueLoadingPolicy</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.queueloader.policies:AbstractQueueLoadingPolicy</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.queueloader.policies:SimpleQueueLoadingPolicy:SimpleQueueLoadingPolicy"><apiName>SimpleQueueLoadingPolicy</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loaderRepository</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoaderRepository</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>globalLoadingSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:GlobalLoadingSettings</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.queueloader.policies:SimpleQueueLoadingPolicy:protected:isNextLoaderEligible"><apiName>isNextLoaderEligible</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loadingStatus</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.queueloader:QueueLoadingStatus</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

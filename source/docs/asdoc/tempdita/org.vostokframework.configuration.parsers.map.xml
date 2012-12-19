@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.configuration.parsers.map"><apiName>org.vostokframework.configuration.parsers.map</apiName><apiDetail/><apiClassifier id="org.vostokframework.configuration.parsers.map:LoadingCacheSettingsMapParser"><apiName>LoadingCacheSettingsMapParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.map:LoadingCacheSettingsMapParser:LoadingCacheSettingsMapParser"><apiName>LoadingCacheSettingsMapParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>configurationElementNames</apiItemName><apiOperationClassifier>org.vostokframework.configuration:ConfigurationElementNames</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.map:LoadingCacheSettingsMapParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>cacheSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingCacheSettings</apiOperationClassifier></apiParam><apiParam><apiItemName>settingsMap</apiItemName><apiType value="org.as3collections:IMap"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.configuration.parsers.map:LoadingSettingsMapParser"><apiName>LoadingSettingsMapParser</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.configuration.parsers.map:LoadingSettingsMapParser:LoadingSettingsMapParser"><apiName>LoadingSettingsMapParser</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>configurationElementNames</apiItemName><apiOperationClassifier>org.vostokframework.configuration:ConfigurationElementNames</apiOperationClassifier></apiParam><apiParam><apiItemName>loadingSettingsFactory</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:ILoadingSettingsFactory</apiOperationClassifier></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.configuration.parsers.map:LoadingSettingsMapParser:parse"><apiName>parse</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiReturn><apiParam><apiItemName>settings</apiItemName><apiType value="org.as3collections:IMap"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

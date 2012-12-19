@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.application.services"><apiName>org.vostokframework.application.services</apiName><apiDetail/><apiClassifier id="org.vostokframework.application.services:AssetService"><apiName>AssetService</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.services:AssetService:AssetService"><apiName>AssetService</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.services:AssetService:assetExists"><apiName>assetExists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetService:createAsset"><apiName>createAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;src&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;assetPackage&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;Asset&lt;/codeph&gt; object stored with the provided &lt;codeph&gt;assetId&lt;/codeph&gt; and &lt;codeph&gt;assetPackage.locale&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>org.vostokframework.assetmanagement.errors:DuplicateAssetError</apiItemName><apiOperationClassifier>org.vostokframework.assetmanagement.errors:DuplicateAssetError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier></apiReturn><apiParam><apiItemName>src</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetPackage</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetService:getAllAssets"><apiName>getAllAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetService:getAsset"><apiName>getAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if do not exist an &lt;codeph&gt;Asset&lt;/codeph&gt; object stored with the provided &lt;codeph&gt;assetId&lt;/codeph&gt; and &lt;codeph&gt;locale&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>org.vostokframework.assetmanagement.errors:AssetNotFoundError</apiItemName><apiOperationClassifier>org.vostokframework.assetmanagement.errors:AssetNotFoundError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetService:removeAllAssets"><apiName>removeAllAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetService:removeAsset"><apiName>removeAsset</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application.services:LoadingService"><apiName>LoadingService</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.services:LoadingService:LoadingService"><apiName>LoadingService</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.services:LoadingService:cancel"><apiName>cancel</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:changePriority"><apiName>changePriority</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if the &lt;codeph&gt;priority&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if do not exist an &lt;codeph&gt;Asset&lt;/codeph&gt; object stored with the provided &lt;codeph&gt;assetId&lt;/codeph&gt; and &lt;codeph&gt;locale&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>org.vostokframework.assetmanagement.errors:AssetNotFoundError</apiItemName><apiOperationClassifier>org.vostokframework.assetmanagement.errors:AssetNotFoundError</apiOperationClassifier></apiException><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>priority</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoadPriority</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:containsAssetData"><apiName>containsAssetData</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:exists"><apiName>exists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:getAssetData"><apiName>getAssetData</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:getMonitor"><apiName>getMonitor</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:isLoading"><apiName>isLoading</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:isQueued"><apiName>isQueued</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:isStopped"><apiName>isStopped</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:loadSingle"><apiName>loadSingle</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>asset</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:Asset</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>priority</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoadPriority</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>concurrentConnections</apiItemName><apiType value="int"/><apiData>1</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:load"><apiName>load</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assets</apiItemName><apiType value="org.as3collections:IList"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>priority</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading:LoadPriority</apiOperationClassifier><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>concurrentConnections</apiItemName><apiType value="int"/><apiData>1</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:mergeAssets"><apiName>mergeAssets</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.application.monitoring:ILoadingMonitor</apiOperationClassifier></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>assets</apiItemName><apiType value="org.as3collections:IList"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:removeAssetData"><apiName>removeAssetData</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>assetId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:resume"><apiName>resume</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:LoadingService:stop"><apiName>stop</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+		 </apiDesc><apiType value="void"/></apiReturn><apiParam><apiItemName>loaderId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application.services:XMLConfigurationService"><apiName>XMLConfigurationService</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.services:XMLConfigurationService:XMLConfigurationService"><apiName>XMLConfigurationService</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.services:XMLConfigurationService:configure"><apiName>configure</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>configuration</apiItemName><apiType value="XML"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application.services:ConfigurationService"><apiName>ConfigurationService</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.services:ConfigurationService:ConfigurationService"><apiName>ConfigurationService</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.services:ConfigurationService:protected:configureAssetPackages"><apiName>configureAssetPackages</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>packages</apiItemName><apiType value="org.as3collections:ICollection"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:ConfigurationService:protected:configureAssets"><apiName>configureAssets</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>assetPackage</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiParam><apiParam><apiItemName>assets</apiItemName><apiType value="org.as3collections:ICollection"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:ConfigurationService:protected:configureDefaultLoadingSettings"><apiName>configureDefaultLoadingSettings</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>defaultSettings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:ConfigurationService:configure"><apiName>configure</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>configuration</apiItemName><apiOperationClassifier>org.vostokframework.configuration:VostokFrameworkConfiguration</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.application.services:AssetPackageService"><apiName>AssetPackageService</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.application.services:AssetPackageService:AssetPackageService"><apiName>AssetPackageService</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.application.services:AssetPackageService:assetPackageExists"><apiName>assetPackageExists</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assetPackageId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetPackageService:createAssetPackage"><apiName>createAssetPackage</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiException><apiDesc>	if already exists an &lt;codeph&gt;AssetPackage&lt;/codeph&gt; object stored with the provided &lt;codeph&gt;assetPackageId&lt;/codeph&gt; and &lt;codeph&gt;locale&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>org.vostokframework.assetmanagement.errors:DuplicateAssetPackageError</apiItemName><apiOperationClassifier>org.vostokframework.assetmanagement.errors:DuplicateAssetPackageError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiReturn><apiParam><apiItemName>assetPackageId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetPackageService:getAllAssetPackages"><apiName>getAllAssetPackages</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="org.as3collections:IList"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetPackageService:getAssetPackage"><apiName>getAssetPackage</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiOperationClassifier>org.vostokframework.domain.assets:AssetPackage</apiOperationClassifier></apiReturn><apiParam><apiItemName>assetPackageId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetPackageService:removeAllAssetPackages"><apiName>removeAllAssetPackages</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.application.services:AssetPackageService:removeAssetPackage"><apiName>removeAssetPackage</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiException><apiDesc>	if the &lt;codeph&gt;assetPackageId&lt;/codeph&gt; argument is &lt;codeph&gt;null&lt;/codeph&gt; or &lt;codeph&gt;empty&lt;/codeph&gt;.
+		 </apiDesc><apiItemName>ArgumentError</apiItemName><apiOperationClassifier>ArgumentError</apiOperationClassifier></apiException><apiReturn><apiDesc>
+		 </apiDesc><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>assetPackageId</apiItemName><apiType value="String"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>locale</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

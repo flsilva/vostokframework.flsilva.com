@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.loading.states.fileloader.adapters"><apiName>org.vostokframework.domain.loading.states.fileloader.adapters</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoCreateNetStreamVideo"><apiName>AutoCreateNetStreamVideo</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoCreateNetStreamVideo:AutoCreateNetStreamVideo"><apiName>AutoCreateNetStreamVideo</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>wrappedDataLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>netStream</apiItemName><apiType value="flash.net:NetStream"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoCreateNetStreamVideo:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoCreateNetStreamVideo:getData"><apiName>getData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior"><apiName>DataLoaderBehavior</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:DataLoaderBehavior"><apiName>DataLoaderBehavior</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>wrappedDataLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:addEventListener"><apiName>addEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>listener</apiItemName><apiType value="Function"/></apiParam><apiParam><apiItemName>useCapture</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam><apiParam><apiItemName>priority</apiItemName><apiType value="int"/><apiData>0</apiData></apiParam><apiParam><apiItemName>useWeakReference</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:cancel"><apiName>cancel</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:dispatchEvent"><apiName>dispatchEvent</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>event</apiItemName><apiType value="flash.events:Event"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:dispose"><apiName>dispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:getData"><apiName>getData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:hasEventListener"><apiName>hasEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:load"><apiName>load</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiDesc>
+ 		 </apiDesc><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:removeEventListener"><apiName>removeEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>listener</apiItemName><apiType value="Function"/></apiParam><apiParam><apiItemName>useCapture</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:stop"><apiName>stop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:willTrigger"><apiName>willTrigger</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiValue id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior:protected:wrappedDataLoader:get"><apiName>wrappedDataLoader</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="protected"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory"><apiName>DataLoaderFactory</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoaderFactory</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:DataLoaderFactory"><apiName>DataLoaderFactory</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:protected:createLoaderContext"><apiName>createLoaderContext</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="flash.system:LoaderContext"/></apiReturn><apiParam><apiItemName>security</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSecuritySettings</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:protected:createSoundLoaderContext"><apiName>createSoundLoaderContext</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="flash.media:SoundLoaderContext"/></apiReturn><apiParam><apiItemName>security</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSecuritySettings</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:create"><apiName>create</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier></apiReturn><apiParam><apiItemName>type</apiItemName><apiOperationClassifier>org.vostokframework.domain.assets:AssetType</apiOperationClassifier></apiParam><apiParam><apiItemName>url</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>settings</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:LoadingSettings</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:protected:getApplicationDomain"><apiName>getApplicationDomain</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="flash.system:ApplicationDomain"/></apiReturn><apiParam><apiItemName>setting</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:ApplicationDomainSetting</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderFactory:protected:getSecurityDomain"><apiName>getSecurityDomain</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="flash.system:SecurityDomain"/></apiReturn><apiParam><apiItemName>setting</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.settings:SecurityDomainSetting</apiOperationClassifier></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoStopNetStream"><apiName>AutoStopNetStream</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoStopNetStream:AutoStopNetStream"><apiName>AutoStopNetStream</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>wrappedDataLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>netStream</apiItemName><apiType value="flash.net:NetStream"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoStopNetStream:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter"><apiName>NativeURLLoaderAdapter</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:NativeURLLoaderAdapter"><apiName>NativeURLLoaderAdapter</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loader</apiItemName><apiType value="flash.net:URLLoader"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>request</apiItemName><apiType value="flash.net:URLRequest"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:doCancel"><apiName>doCancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:doGetData"><apiName>doGetData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:doLoad"><apiName>doLoad</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:doStop"><apiName>doStop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeURLLoaderAdapter:protected:getLoadingDispatcher"><apiName>getLoadingDispatcher</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="flash.events:IEventDispatcher"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter"><apiName>NativeSoundAdapter</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:NativeSoundAdapter"><apiName>NativeSoundAdapter</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>sound</apiItemName><apiType value="flash.media:Sound"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>request</apiItemName><apiType value="flash.net:URLRequest"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>context</apiItemName><apiType value="flash.media:SoundLoaderContext"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:doCancel"><apiName>doCancel</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:doGetData"><apiName>doGetData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:doLoad"><apiName>doLoad</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:doStop"><apiName>doStop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeSoundAdapter:protected:getLoadingDispatcher"><apiName>getLoadingDispatcher</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="flash.events:IEventDispatcher"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream"><apiName>ProgressNetStream</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream:ProgressNetStream"><apiName>ProgressNetStream</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>wrappedDataLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>netStream</apiItemName><apiType value="flash.net:NetStream"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>percentToBuffer</apiItemName><apiType value="int"/><apiData>0</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream:cancel"><apiName>cancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream:load"><apiName>load</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:ProgressNetStream:stop"><apiName>stop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter"><apiName>NativeLoaderAdapter</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:NativeLoaderAdapter"><apiName>NativeLoaderAdapter</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>loader</apiItemName><apiType value="flash.display:Loader"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>request</apiItemName><apiType value="flash.net:URLRequest"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>context</apiItemName><apiType value="flash.system:LoaderContext"/><apiData>null</apiData><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:doCancel"><apiName>doCancel</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:doGetData"><apiName>doGetData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:doLoad"><apiName>doLoad</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:doStop"><apiName>doStop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeLoaderAdapter:protected:getLoadingDispatcher"><apiName>getLoadingDispatcher</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="flash.events:IEventDispatcher"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter"><apiName>NativeNetStreamAdapter</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:NativeNetStreamAdapter"><apiName>NativeNetStreamAdapter</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>netStream</apiItemName><apiType value="flash.net:NetStream"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>netConnection</apiItemName><apiType value="flash.net:NetConnection"/><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>request</apiItemName><apiType value="flash.net:URLRequest"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:doCancel"><apiName>doCancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:doGetData"><apiName>doGetData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:doLoad"><apiName>doLoad</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:doStop"><apiName>doStop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:NativeNetStreamAdapter:protected:getLoadingDispatcher"><apiName>getLoadingDispatcher</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="flash.events:IEventDispatcher"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoResizeNetStreamVideo"><apiName>AutoResizeNetStreamVideo</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderBehavior</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoResizeNetStreamVideo:AutoResizeNetStreamVideo"><apiName>AutoResizeNetStreamVideo</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>wrappedDataLoader</apiItemName><apiOperationClassifier>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiOperationClassifier><apiDesc>	 </apiDesc></apiParam><apiParam><apiItemName>netStream</apiItemName><apiType value="flash.net:NetStream"/><apiDesc>	 </apiDesc></apiParam></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:AutoResizeNetStreamVideo:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiIsOverride/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier><apiClassifier id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter"><apiName>DataLoaderAdapter</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseInterface>org.vostokframework.domain.loading.states.fileloader:IDataLoader</apiBaseInterface><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:DataLoaderAdapter"><apiName>DataLoaderAdapter</apiName><shortdesc>
+		 description
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc>
+		 description
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:addEventListener"><apiName>addEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>listener</apiItemName><apiType value="Function"/></apiParam><apiParam><apiItemName>useCapture</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam><apiParam><apiItemName>priority</apiItemName><apiType value="int"/><apiData>0</apiData></apiParam><apiParam><apiItemName>useWeakReference</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:cancel"><apiName>cancel</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:dispatchEvent"><apiName>dispatchEvent</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>event</apiItemName><apiType value="flash.events:Event"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:dispose"><apiName>dispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:doCancel"><apiName>doCancel</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:doDispose"><apiName>doDispose</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:doGetData"><apiName>doGetData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:doLoad"><apiName>doLoad</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:doStop"><apiName>doStop</apiName><shortdesc>
+		 description
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc>
+		 description
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:getData"><apiName>getData</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="any"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:protected:getLoadingDispatcher"><apiName>getLoadingDispatcher</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="protected"/><apiReturn><apiType value="flash.events:IEventDispatcher"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:hasEventListener"><apiName>hasEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:load"><apiName>load</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:removeEventListener"><apiName>removeEventListener</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>listener</apiItemName><apiType value="Function"/></apiParam><apiParam><apiItemName>useCapture</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:stop"><apiName>stop</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef></apiOperationDetail></apiOperation><apiOperation id="org.vostokframework.domain.loading.states.fileloader.adapters:DataLoaderAdapter:willTrigger"><apiName>willTrigger</apiName><shortdesc/><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiReturn><apiType value="Boolean"/></apiReturn><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam></apiOperationDef></apiOperationDetail></apiOperation></apiClassifier></apiPackage>

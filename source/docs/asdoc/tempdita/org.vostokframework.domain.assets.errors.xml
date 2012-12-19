@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="org.vostokframework.domain.assets.errors"><apiName>org.vostokframework.domain.assets.errors</apiName><apiDetail/><apiClassifier id="org.vostokframework.domain.assets.errors:AssetNotFoundError"><apiName>AssetNotFoundError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets.errors:AssetNotFoundError:AssetNotFoundError"><apiName>AssetNotFoundError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.assets.errors:AssetNotFoundError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets.errors:UnsupportedAssetTypeError"><apiName>UnsupportedAssetTypeError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets.errors:UnsupportedAssetTypeError:UnsupportedAssetTypeError"><apiName>UnsupportedAssetTypeError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.assets.errors:UnsupportedAssetTypeError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets.errors:DuplicateAssetError"><apiName>DuplicateAssetError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets.errors:DuplicateAssetError:DuplicateAssetError"><apiName>DuplicateAssetError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.assets.errors:DuplicateAssetError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets.errors:AssetPackageNotFoundError"><apiName>AssetPackageNotFoundError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets.errors:AssetPackageNotFoundError:AssetPackageNotFoundError"><apiName>AssetPackageNotFoundError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.assets.errors:AssetPackageNotFoundError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="org.vostokframework.domain.assets.errors:DuplicateAssetPackageError"><apiName>DuplicateAssetPackageError</apiName><shortdesc>
+	 description
+	 
+	 </shortdesc><prolog><author>Flávio Silva
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>org.vostokframework.errors:VostokFrameworkError</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 description
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="org.vostokframework.domain.assets.errors:DuplicateAssetPackageError:DuplicateAssetPackageError"><apiName>DuplicateAssetPackageError</apiName><shortdesc>
+		 Constructor, creates a new AssetRepositoryError instance.</shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>identification</apiItemName><apiOperationClassifier>org.vostokframework:VostokIdentification</apiOperationClassifier><apiDesc>	A string associated with the error object.
+		 </apiDesc></apiParam><apiParam><apiItemName>message</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam></apiConstructorDef><apiDesc>
+		 Constructor, creates a new AssetRepositoryError instance.
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="org.vostokframework.domain.assets.errors:DuplicateAssetPackageError:identification:get"><apiName>identification</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiValueClassifier>org.vostokframework:VostokIdentification</apiValueClassifier></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>
