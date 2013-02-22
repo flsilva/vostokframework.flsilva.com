@@ -1,6 +1,6 @@
 ---
 title: Free OpenSource AS3 Framework | VostokFramework
-description: VostokFramework is a powerful AS3 framework for loading, management and storage of assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.
+description: VostokFramework is a powerful AS3 framework for loading, management and storage of external assets (XML, SWF, JPG, PNG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.
 priority: 1.0
 ---
 - content_for :main_content_title do
@@ -29,11 +29,11 @@ markdown:
 
   VostokFramework manages two distinct but interrelated problem domains: the organization of external assets (e.g. XML, SWF, JPG) of a Flash/Flex/AIR application, which is the _Asset Management_ problem domain, and the loading of those assets, which is the _Loading Management_ problem domain, through two main APIs:
 
-  Asset Management: Allows developers to create, store, retrieve and remove assets with support for several features such as organization of assets into packages and localization (multi-language).
+  Asset Management: allow developers to create, store, retrieve and remove assets with support for several features such as organization of assets into packages and localization (multi-language).
 
-  Loading Management: Allows developers to create and manage loading requests for their assets with several features such as priority control, simultaneous connections, change started requests, progress and bandwidth monitoring, etc.
+  Loading Management: allow developers to create and manage loading requests for their assets with several features such as priority control, simultaneous connections, change started requests, progress, bandwidth monitoring, etc.
 
-  To complete almost all supported scenarios by the framework you only need to interact with the _Services_ objects (Facade design pattern) of the domain problems. The solutions for the _Asset Management_ domain problem exposes two _Service_ objects: AssetService and AssetPackageService. The solutions for the _Loading Management_ domain problem exposes only one _Service_ object: LoadingService. Let's start discussing the _Asset Management_ solutions.
+  To complete almost all supported scenarios by the framework you only need to interact with the _Service_ objects (Facade design pattern) of the domain problems. The solutions for the _Asset Management_ domain problem exposes two _Service_ objects: AssetService and AssetPackageService. The solutions for the _Loading Management_ domain problem exposes only one _Service_ object: LoadingService. Let's start discussing the _Asset Management_ solutions.
 
   #### Asset Management API
 
@@ -45,7 +45,7 @@ markdown:
 
   To create an Asset object you should use the following method:
 
-  AssetService().createAsset(src:String, assetPackage:AssetPackage, settings:LoadingSettings = null, assetId:String = null, type:AssetType = null)
+  <pre><code data-language='javascript'>AssetService().createAsset(src:String, assetPackage:AssetPackage, settings:LoadingSettings = null, assetId:String = null, type:AssetType = null)</code></pre>
 
   **Important**: You shouldn't use the Asset constructor directly.
 
@@ -59,7 +59,7 @@ markdown:
 
   To create an AssetPackage object you should use the following method:
 
-  AssetPackageService().createAssetPackage(assetPackageId:String, locale:String = null)
+  <pre><code data-language='javascript'>AssetPackageService().createAssetPackage(assetPackageId:String, locale:String = null)</code></pre>
 
   Note that only the first argument is needed.
 
