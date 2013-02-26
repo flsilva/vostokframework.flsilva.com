@@ -6,9 +6,9 @@ priority: 1.0
 - content_for :main_content_title do
   | About
 markdown:
-  VostokFramework is a powerful AS3 framework for loading, management and storage of assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.
+  VostokFramework is a powerful AS3 framework for loading, management and storage of external assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.
 
-  Unfortunately I've runned out of time and couldn't finish its first version, so it's not production ready. Currently it's 90% implemented and have 77% of unit testing line coverage. It's demonstrably working through a suit of integration tests.
+  Unfortunately I've runned out of time and couldn't finish its first version, so it's not production ready. Currently it's 90% implemented and have <a href="/docs/coverage-report/">77% of unit testing line coverage</a>. It's demonstrably working through a suit of integration tests.
 
   ### Object-Oriented Design
 
@@ -73,7 +73,7 @@ markdown:
 
   One important thing to note about AssetPackage objects is that they are independent of the loading process. They are only places to organize your assets. When you make a loading request to load assets you can pick up assets from any AssetPackage objects.
 
-  #### Asset Management API
+  #### Loading Management API
 
   Pending documentation...
 
