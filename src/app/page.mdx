@@ -1,0 +1,81 @@
+## About
+
+VostokFramework is a powerful AS3 framework for loading, management and storage of external assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.
+
+Unfortunately I've runned out of time and couldn't finish its first version, so it's not production ready. Currently it's 90% implemented and have [77% of unit testing line coverage](/docs/coverage-report/). It's demonstrably working through a suit of integration tests.
+
+## Object-Oriented Design
+
+VostokFramework was a great case study for myself because I've studied and applied several software engineering topics on it, including [Object-Oriented Design Principles](http://c2.com/cgi/wiki?PrinciplesOfObjectOrientedDesign), [Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern), [Framework Design Guidelines](http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613), [Unit Testing](http://en.wikipedia.org/wiki/Unit_testing), [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development), [Layered Architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html), [Domain-Driven Design](http://en.wikipedia.org/wiki/Domain-driven_design), among others. So, the result is a beautiful, carefully crafted OO design, totally based on best practices and patterns. Therefore, although it's not production ready, it's a great piece of study for anyone willing to improve their skills in those topics.
+
+## Features
+
+- Easy-to-use API through well defined Facades;
+- Built-in support for localization;
+- Support for several asset types (XML, CSS, PNG, JPG, SWF, and more)
+- Simultaneous loading queues;
+- Detailed loading monitoring;
+- Loading priority;
+- Cache control;
+- and more...
+
+## API
+
+VostokFramework manages two distinct but interrelated problem domains: the organization of external assets (e.g. XML, SWF, JPG) of a Flash/Flex/AIR application, which is the _Asset Management_ problem domain, and the loading of those assets, which is the _Loading Management_ problem domain, through two main APIs:
+
+- **Asset Management:** allow developers to create, store, retrieve and remove assets with support for several features such as organization of assets into packages and localization (multi-language).
+- **Loading Management:** allow developers to create and manage loading requests for their assets with several features such as priority control, simultaneous connections, change started requests, progress, bandwidth monitoring, etc.
+
+To complete mostly supported scenarios by the framework you only need to interact with the _Service_ objects (Facade design pattern) of the problem domains. The solutions for the _Asset Management_ problem domain exposes two _Service_ objects: AssetService and AssetPackageService. The solutions for the _Loading Management_ problem domain exposes only one _Service_ object: LoadingService.
+
+Let's start discussing the _Asset Management_ solutions.
+
+### Asset Management API
+
+Before start using the _Service_ objects let's get an overview on the main objects of the _Asset Management_ domain: Asset and AssetPackage.
+
+#### Asset
+
+The Asset object represents an external asset (e.g. XML, SWF, JPG). Before you load an external file you must create an Asset object that represents it.
+
+To create an Asset object you should use the following method:
+
+```actionscript-3
+AssetService().createAsset(src:String, assetPackage:AssetPackage, settings:LoadingSettings = null, assetId:String = null, type:AssetType = null)
+```
+
+**Important**: You shouldn't use the Asset constructor directly.
+
+Note that only the first two arguments are needed.
+
+- **src**: is the physical source of the external file (e.g. “asset/xml/file.xml“).
+- **assetPackage**: is the package that the Asset object will belong. Each Asset must belong to an AssetPackage. So before you create an Asset object you must create its AssetPackage. After its creation, the Asset object will automatically be inside the provided package.
+
+#### AssetPackage
+
+To create an AssetPackage object you should use the following method:
+
+```actionscript-3
+AssetPackageService().createAssetPackage(assetPackageId:String, locale:String = null)
+```
+
+Note that only the first argument is needed.
+
+- **assetPackageId**: each AssetPackage object must have an id. The id must be unique, but the complete id of an AssetPackage object is composed by this argument + the locale argument. This logic is managed by the framework internally.
+- **locale**: each AssetPackage object must have an unique locale. If you don't provide one, the framework will provide the default locale, that is “CROSS-LOCALE”. So if you don't want to worry about locales because your application doesn't make use of them or if you are creating a cross-locale AssetPackage object, you don't have to provide it here.
+
+The AssetPackage object has two main purposes:
+
+**Organization and convenience of your assets**: you can easily organize your assets into packages. Each package should represent a small concept of your application. Usually your application will have several AssetPackage objects. For example, suppose that your Flash/Flex/AIR app depends on several external assets to initialize. You can easily group these assets into an AssetPackage object with a convenient ID (e.g. “app-preload”). Then suppose your app have a Products module. This module also has some assets that need to be preloaded, so you can easily group these assets into another AssetPackage object (with ID “products-preload” for example). Then suppose this Products module has a list of several products, with one image for each product, and you don't want to preload these images. So you create a third AssetPackage object (with ID “products-images” for example) for those images. After the preloading of the module you can request a loading of the assets inside the “products-images” AssetPackage object, monitor its progress and show each image individually as they are loaded or wait until all assets finish loading and then show them all at once.
+
+One important thing to note about AssetPackage objects is that they are independent of the loading process. They are only places to organize your assets. When you make a loading request to load assets you can pick up assets from any AssetPackage objects.
+
+### Loading Management API
+
+Pending documentation...
+
+## Dependencies
+
+- VostokFramework depends on [AS3CoreAddendum](https://as3coreaddendum.flsilva.com), [AS3Utils](https://as3utils.flsilva.com) and [AS3Collections](https://as3collections.flsilva.com).
+
+For more information see the docs.
