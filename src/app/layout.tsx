@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AS3CoreAddendum",
+  title: "VostokFramework",
   description:
-    "AS3CoreAddendum is an architectural addendum to the core of the Actionscript 3.0 language, developed by Flavio Silva in 2011.",
+    "VostokFramework is a powerful AS3 framework for loading, management and storage of assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.",
 };
 
 export default function RootLayout({
