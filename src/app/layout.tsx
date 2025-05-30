@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VostokFramework",
+  title: "VostokFramework: asset loading for AS3 apps",
   description:
     "VostokFramework is a powerful AS3 framework for loading, management and storage of assets (XML, SWF, JPG, etc). It has several advanced features such as built-in localization, simultaneous loading queues, detailed loading monitoring, priority, cache control, etc.",
 };

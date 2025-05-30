@@ -7,7 +7,7 @@ export const MainFooter = () => (
         Code licensed under{" "}
         <A
           className="text-base"
-          href="http://opensource.org/licenses/MIT"
+          href="https://opensource.org/licenses/MIT"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,7 +17,7 @@ export const MainFooter = () => (
         This site and all documentation licensed under{" "}
         <A
           className="text-base"
-          href="http://creativecommons.org/licenses/by-sa/3.0/"
+          href="https://creativecommons.org/licenses/by-sa/3.0/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,7 +29,7 @@ export const MainFooter = () => (
         © 2025{" "}
         <A
           className="text-sm"
-          href="https://flsilva.com"
+          href="https://www.flsilva.com"
           target="_blank"
           rel="noopener noreferrer"
         >
